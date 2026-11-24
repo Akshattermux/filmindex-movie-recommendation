@@ -78,3 +78,5 @@ docker run --rm --name filmindex -p 127.0.0.1:8501:8501 -e TMDB_READ_TOKEN filmi
 The container runs as a non-root user and exposes Streamlit on port 8501. The health check polls `/_stcore/health`. Use the included app test for model and rendering readiness. For an internet-facing deployment, terminate HTTPS at the hosting platform and enable WebSocket forwarding. Keep the prior tagged image available to roll back a release. The GitHub Actions workflow runs tests and builds the image on pushes and pull requests.
 
 TMDB supplies the metadata and movie artwork. Its developer API is available for attributed non-commercial use. For a revenue-generating service, arrange commercial terms with TMDB before launch. The app displays the official TMDB logo and attribution notice. [TMDB API FAQ and commercial licensing](https://developer.themoviedb.org/docs/faq)
+
+# filmindex-movie-recommendation
