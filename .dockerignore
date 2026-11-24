@@ -1,0 +1,11 @@
+**
+!requirements.txt
+!.streamlit
+!.streamlit/config.toml
+!app.py
+!filmindex
+!filmindex/*.py
+!assets
+!assets/*
+!artifacts
+!artifacts/catalog.pkl
